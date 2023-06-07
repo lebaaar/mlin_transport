@@ -1,5 +1,5 @@
-# Mlin transport static website
-I've made a website for a local company in transport business. Their old website was really bad, so I figured I could make some money on the side and make them a cool looking website. [Website here](https://www.lanlebar.github.io/) \
+# [Mlin transport website](https://www.lanlebar.github.io/)
+I've made a website for a local company in transport business. Their old website was really bad, so I figured I could make some money on the side and make them a cool looking website.s\
 
 ## Features and tech
 - A static website, made in HTML, CSS and JS
