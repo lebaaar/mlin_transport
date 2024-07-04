@@ -1,6 +1,14 @@
-Static website built with HTML, CSS, JS, [Bootstrap](https://getbootstrap.com/). Something I built for a local company in my free time... 
+# Mlin transport website
 
-Responsive site, looks good on any screen size.
+Static website I built for a local company. Responsive, looks good on any screen.
+
+## Tech stack
+- HTML
+- CSS
+- JS
+- Bootstrap
+
+## Gallery
 
 <p align="center">
   <img src="site-images/home.png" alt="Home page">
