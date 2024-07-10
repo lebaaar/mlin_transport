@@ -89,13 +89,54 @@ footer h5 {
     .kontakt-container {padding: 0;}
 }
 /* index page */
-.mlin-branded-trucks {
-    width: 100%;
+.wrapper {
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
 }
-@media screen and (min-width: 1500px) {
-    .mlin-branded-trucks {
-        width: 75%;
+@keyframes scroll {
+    0% {
+      transform: translateY(0);
     }
+    100% {
+      transform: translateY(-100%);
+    }
+}
+.carousel-container:before,
+.carousel-container:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 20px;
+    z-index: 1;
+}
+.carousel-container:before {
+    top: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.carousel-container:after {
+    bottom: 0;
+    background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+.carousel {
+    display: flex;
+    flex-direction: column;
+    animation-name: scroll;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.carousel_item {
+    width: 100%;
+    flex-shrink: 0;
+}
+.carousel_item img {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    border-radius: 7px
 }
 .slider {
     line-height: 1.5;
@@ -190,6 +231,23 @@ footer h5 {
     transition: all .2s cubic-bezier(.22, .61, .36, 1);
 }
 .slide-link:hover {background-color: var(--mlin-dark-color); transform: translateY(-2px);}
+.slide-link-inverted {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    color: var(--mlin-color);
+    border-radius: 3px;
+    border: solid 1px var(--mlin-color);
+    text-decoration: none;
+    background-color: var(--white);
+    transition: all .2s cubic-bezier(.22, .61, .36, 1);
+}
+.slide-link-inverted:hover {
+    background-color: var(--mlin-dark-color);
+    border-color: var(--mlin-dark-color);
+    color: white;
+    transform: translateY(-2px);
+}
 #btn-1:checked~.slides .slider-slide:nth-child(1), #btn-2:checked~.slides .slider-slide:nth-child(2), #btn-3:checked~.slides .slider-slide:nth-child(3) {
     transform: translatex(0);
     opacity: 1;
@@ -304,15 +362,8 @@ footer h5 {
     color: black;
     font-size: 1em;
 }
-.audio-container {
-    display: flex;
-    justify-content: center;
-}
 .about-us-text-container p {
     margin: 0 2em;
-}
-audio {
-    margin-top: 1em;
 }
 @media screen and (max-width: 992px){
     .about-us {
