@@ -68,8 +68,11 @@
             <h1>Company fleet</h1>
             <p style="font-size: 1.2em;">Safe, ecological and regularly maintained vehicles</p>
         </div>
+        <div class="container d-flex justify-content-center my-4">
+            <a href="..//galerija.html" class="slide-link">See our gallery</a>
+        </div>
         <section class="container" style="padding: 0;">
-            <div id="carousel-caption" class="carousel slide">
+            <div id="carousel-caption" class="carousel slide" data-bs-ride="carousel" data-bs-interval="7000">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carousel-caption" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carousel-caption" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -77,6 +80,16 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
+                        <video autoplay loop muted class="d-block w-100">
+                            <source src="../../audio-video/roads.mp4" type="video/mp4">
+                            Your browser does not support video content.
+                        </video>
+                        <div class="carousel-caption d-none d-md-block" style="background-color: var(--mlin-color);">
+                            <h5>Transportation of up to <b>26 tons</b> of goods</h5>
+                            <p>Our trailers are fully equipped and can transport up to 26 tons of goods</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
                         <img src="../../images/mlin-side-profile-sunset-16-9.jpg" class="d-block w-100" alt="Mlin trucks">
                         <div class="carousel-caption d-none d-md-block" style="background-color: var(--mlin-color);">
                             <h5>Company fleet</h5>
@@ -88,16 +101,6 @@
                         <div class="carousel-caption d-none d-md-block" style="background-color: var(--mlin-color);">
                             <h5>Ecological and regularly maintained vehicles</h5>
                             <p>All our vehicles are ecological and regularly maintained</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <video autoplay loop muted class="d-block w-100">
-                            <source src="../../audio-video/stock-video.mp4" type="video/mp4">
-                            Your browser does not support video content.
-                        </video>
-                        <div class="carousel-caption d-none d-md-block" style="background-color: var(--mlin-color);">
-                            <h5>Transportation of up to <b>26 tons</b> of goods</h5>
-                            <p>Our trailers are fully equipped and can transport up to 26 tons of goods</p>
                         </div>
                     </div>
                 </div>
@@ -139,7 +142,7 @@
                     </div>
                 </div>
             </div>
-            <article class="container cmr-zavarovanje-container text-center">
+            <article class="container cmr-zavarovanje-container text-center my-4">
                 <h3>CMR cargo insurance</h3>
                 <p>
                     All our cargo is insured with CMR insurance.
