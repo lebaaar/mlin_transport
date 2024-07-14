@@ -144,7 +144,8 @@ footer h5 {
         height: auto;
     }
     #index-title, #index-p {
-        text-align: center;   
+        text-align: center;
+        margin-top: 10px;
     }
 }
 @media (max-width: 992px) {
