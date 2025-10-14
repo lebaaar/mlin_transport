@@ -1,12 +1,16 @@
-# Mlin transport website
+# Mlin Transport website
 
-Static website I built for a local company. Responsive, looks good on any screen.
+A modern, responsive website built for a local logistics company Mlin Transport.
+The site is fully mobile-friendly and optimized for all screen sizes.
+
+Demo: https://dvojnil.github.io/
 
 ## Tech stack
 - HTML
 - CSS
 - JS
-- Bootstrap
+- [Bootstrap](https://getbootstrap.com/)
+- [FormSubmit](https://formsubmit.co)
 
 ## Gallery
 
