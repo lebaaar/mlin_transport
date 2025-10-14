@@ -65,16 +65,53 @@
         </nav>
     </header>
     <main>
-        <section>
-            <div>
-                <img class="mlin-branded-trucks img-fluid mx-auto d-block" src="images/mlin-branded-trucks-crop.jpg" alt="Mlin tovrnjaki">
-            </div>
-            <div class="container text-center">
-                <h1 style="margin-top: 1em;">Mlin transport</h1>
-                <h2 style="color: var(--dark-grey);">Uspešno slovensko podjetje z dolgoletno tradicijo</h2>
+        <section class="container-fluid">
+            <div class="container" id="carousel-container">
+                <div class="row">
+                    <div class="col-md-5 col-12 my-auto">
+                        <h1 id="index-title">Uspešno slovensko podjetje z dolgoletno tradicijo</h1>
+                        <p class="my-4 index-p">Smo družinsko podjetje, ki se že dve desetletji ukvarja s prevozom blaga v mednarodnem cestnoprometnem transportu. V teh letih smo si pridobili dragocene izkušnje in znanja kar nam omogoča, da lahko stankam ponudimo kvalitetne storitve.</p>
+                        <a href="poslji-povprasevanje.html" class="slide-link my-1">Pošljite povpraševanje</a>
+                        <a href="storitve/vozni-park.html" class="slide-link-inverted my-1">Vozni park</a>
+                    </div>
+                    <div class="col-md-7 col-12 d-flex justify-content-center align-items-center">
+                        <div class="wrapper">
+                            <div class="carousel-container">
+                                <a href="galerija.html">
+                                    <div class="carousel">
+                                        <div class="carousel_item">
+                                            <img src="images/mlin-aligned-trucks.jpg" alt="Mlin Transport tovornjak">
+                                        </div>
+                                        <div class="carousel_item">
+                                            <img src="images/mlin-upper-profile.jpg" alt="Mlin Transport tovornjak">
+                                        </div>
+                                        <div class="carousel_item">
+                                            <img src="images/mlin-side-truck.jpg" alt="Mlin Transport tovornjak">
+                                        </div>
+                                        <div class="carousel_item">
+                                            <img src="images/mlin-group-trucks.jpg" alt="Mlin Transport tovornjak">
+                                        </div>
+                                        <div class="carousel_item">
+                                            <img src="images/mlin-side-profile-sunset.jpg" alt="Mlin Transport tovornjak">
+                                        </div>
+                                        <div class="carousel_item">
+                                            <img src="images/mlin-white-red.jpg" alt="Mlin Transport tovornjak">
+                                        </div>
+                                        <div class="carousel_item">
+                                            <img src="images/mlin-single-truck.jpg" alt="Mlin Transport tovornjak">
+                                        </div>
+                                        <div class="carousel_item">
+                                            <img src="images/mlin-inside-truck.jpg" alt="Mlin Transport tovornjak">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="container">
+        <section class="container pt-0">
             <div class="slider">
                 <input type="radio" name="toggle" id="btn-1" checked>
                 <input type="radio" name="toggle" id="btn-2">
@@ -85,20 +122,7 @@
                     <label for="btn-3"></label>
                 </div>
                 <ul class="slides">
-                    <li class="slider-slide">
-                        <div class="slide-image">
-                            <img src="images/about-us.png" alt="O nas" class="img-fluid">
-                        </div>
-                        <div class="slide-content">
-                            <h2 class="slide-title">O nas</h2>
-                            <p class="slide-text">
-                                Smo družinsko podjetje, ki se že dobro desetletje ukvarja s prevozom blaga v mednarodnem cestnoprometnem trasnportu. 
-                                V teh letih smo si pridobili dragocene izkušnje in znanja kar nam omogoča, da lahko stankam ponudimo kvalitetetne storitve.
-                            </p>
-                            <a href="o-nas/o-podjetju.html" class="slide-link">Izvedite več o nas</a>
-                        </div>
-                    </li>
-                    <li class="slider-slide">
+                    <li class="slider-slide pt-0">
                         <div class="slide-image">
                             <img src="images/truck-icon.png" alt="Tovrnjaki" class="img-fluid">
                         </div>
@@ -111,7 +135,7 @@
                             <a href="storitve/vozni-park.html" class="slide-link">Naše storitve</a>
                         </div>
                     </li>
-                    <li class="slider-slide">
+                    <li class="slider-slide pt-0">
                         <div class="slide-image">
                             <img src="images/business-partners.png" alt="Poslovni partnerji" class="img-fluid">
                         </div>
@@ -122,6 +146,18 @@
                                 Sodelujemo z vrsto podjetij v različnih panogah in si prizadevamo vzpostaviti dolgoročno sodelovanje, ki temelji na zaupanju, integriteti in vzajemnem uspehu.                            
                             </p>
                             <a href="o-nas/poslovni-partnerji.html" class="slide-link">Naši poslovni partnerji</a>
+                        </div>
+                    </li>
+                    <li class="slider-slide">
+                        <div class="slide-image">
+                            <img src="../images/about-us.png" alt="O nas" class="img-fluid">
+                        </div>
+                        <div class="slide-content">
+                            <h2 class="slide-title">Priružite se naši ekipi</h2>
+                            <p class="slide-text">
+                                Pri Mlin transportu, vedno iščemo strastne posameznike, ki bi se pridružili naši rastoči ekipi. Ne glede na to, ali ste izkušeni strokovnjak ali šele začenjate svojo kariero, vam ponujamo dinamično delovno okolje, ki ceni inovacije, sodelovanje in zavezanost k odličnosti. Raziščite karierne priložnosti z nami in postanite del podjetja.
+                            </p>
+                            <a href="o-nas/zaposlitev.html" class="slide-link">Preglej delovna mesta</a>
                         </div>
                     </li>
                 </ul>
@@ -195,7 +231,7 @@
                 <img style="width: 15em;" src="images/logo-no-background.png" alt="Mlin transport logo">
             </a>
             <p class="mt-3">Uspešno slovensko podjetje z dolgoletno tradicijo</p>
-            <p>Copyright &#169; 2023 Mlin transport d.o.o. | Vse pravice pridržane</p>
+            <p>Copyright &#169; 2024 Mlin transport d.o.o. | Vse pravice pridržane</p>
         </div>
         <div class="col-lg-2 text-center">
             <h5>Uporabne povezave</h5>
