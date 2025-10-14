@@ -3,7 +3,7 @@
 A modern, responsive website built for a local logistics company Mlin Transport.
 The site is fully mobile-friendly and optimized for all screen sizes.
 
-Demo: https://dvojnil.github.io/
+Demo: https://lebaaar.github.io/mlin_transport
 
 ## Tech stack
 - HTML
