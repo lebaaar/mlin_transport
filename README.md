@@ -1,16 +1,25 @@
-# Mlin Transport website
+<p align="center"> <img src="images/logo-no-background.png" alt="Mlin Transport Logo" width="150"> </p>
 
-A modern, responsive website built for a local logistics company Mlin Transport.
-The site is fully mobile-friendly and optimized for all screen sizes.
+<h1>Mlin Transport website</h1>
 
-Demo: https://lebaaar.github.io/mlin_transport
+A modern, responsive website built for Mlin Transport, a local logistics company.
+Clean and resposive design, optimized for all screen sizes.
+
+Live demo: https://lebaaar.github.io/mlin_transport
+
+## Features
+- Fully responsive, modern design
+- Multilanguage support (Slovenian and English)
+- Contact & Inquiry forms
+- Interactive map
 
 ## Tech stack
 - HTML
 - CSS
 - JS
-- [Bootstrap](https://getbootstrap.com/)
-- [FormSubmit](https://formsubmit.co)
+- [Bootstrap](https://getbootstrap.com/) - resposnive UI design
+- [FormSubmit](https://formsubmit.co) - backend-free form handling
+- [Leaflet](https://leafletjs.com/) - interactive maps
 
 ## Gallery
 
